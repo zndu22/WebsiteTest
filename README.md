@@ -1,1 +1,1 @@
-just an HTML Hello, World! to test out the Github Pages
+just a place for me to mess around with web dev
