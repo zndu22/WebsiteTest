@@ -1,19 +1,36 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>WebGL Demo</title>
-    <link rel="stylesheet" href="./webgl.css" type="text/css" />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"
-      integrity="sha512-zhHQR0/H5SEBL3Wn6yYSaTTZej12z0hVZKOv3TwCUXT1z5qeqGcXJLLrbERYRScEDDpYIJhPC1fk31gqR783iQ=="
-      crossorigin="anonymous"
-      defer></script>
-    <script src="webgl-demo.js" type="module"></script>
-  </head>
 
-  <body>
-    <canvas id="glcanvas" width="640" height="480"></canvas>
-    <p>I don't like WebGL</p>
-  </body>
+<head>
+  <title>noa-examples: hello-world</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <style type="text/css">
+    body {
+      background-color: white;
+      margin: 0px;
+      overflow: hidden;
+    }
+
+    #reticle {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      margin: -10px 0 0 -10px;
+      z-index: 99;
+      color: white;
+      text-shadow: 1px 1px 0px black;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="reticle">+</div>
+  <script type="module" src="./index.js"></script>
+</body>
+
 </html>
